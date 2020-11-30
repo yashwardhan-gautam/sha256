@@ -20,7 +20,7 @@ G = 0x1f83d9ab\
 H = 0x5be0cd19\
 ![64 constants](https://github.com/yashwardhan-gautam/sha256/blob/master/1_GNXx6NbFolhTKx_C7awdeg.png)\
 Then we run the final step using all of this\
-![Final State](https://github.com/yashwardhan-gautam/sha256/blob/master/im2.png)
+![Final State](https://github.com/yashwardhan-gautam/sha256/blob/master/im2.png)  
 Ch(E, F, G) = (E AND F) XOR ((NOT E) AND G)\
 Ma(A, B, C) = (A AND B) XOR (A AND C) XOR (B AND C)\
     ∑(A)    = (A >>> 2) XOR (A >>> 13) XOR (A >>> 22)\
